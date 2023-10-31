@@ -3,7 +3,7 @@
 #define CONFIG_MANAGER_H
 
 #include <string>
-#include "nlohmann/json.hpp"
+#include "json.hpp"
 
 class ConfigManager {
 public:

@@ -12,9 +12,12 @@ public:
     void play();
     static std::mutex mtx;
     static std::condition_variable cv;
-    static int current_Team;
-    static int prev_Player;
+    static int currentPlayerTeam1;
+    static int currentPlayerTeam2;
+    static bool isGameOver;
+    static int currentTeam;
     static int team_size;
+
 private:
     int number_;
     int team_;
